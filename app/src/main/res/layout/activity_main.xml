@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAF7F7">
+
+    <!-- Student Count -->
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="72sp"
+        android:textColor="#444444"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Check In Button -->
+    <Button
+        android:id="@+id/btnCheckIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check In"
+        android:textSize="18sp"
+        android:backgroundTint="#6A4FB3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Check Out Button -->
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out"
+        android:textSize="18sp"
+        android:backgroundTint="#6A4FB3"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
